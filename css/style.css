@@ -1,3 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.body{
+  background-color :#fdfcdc;
+}
 .titulo{
     font-family: "Reem Kufi Fun", sans-serif;
     font-weight: 500;
@@ -7,13 +15,23 @@
     text-decoration: #000000;
 }
 
-.body{
+.titulo2{
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: #000000;
+}
+
+.main{
     background-color: #fdfcdc;
 }
 
 .linha{
     border: 0;
     height: 2px;
+    margin: 0px;
     background:black;
     background-image: linear-gradient(to right, #7f4809, #dda15e, #7f4809);}
 
@@ -21,8 +39,8 @@
     font-family: "Reem Kufi Fun", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: 18%;
-    margin-left: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
     font-size: 20px;
     color: #dda15e;
     position: absolute;
@@ -97,8 +115,9 @@
 .foto{
   margin-left: 70%;
   border-radius: 50%;
-  margin-top: 20%;
- height: 250px;
+  margin-top: 5%;
+  height: 250px;
+  margin-right: 10%;
 }
 .curriculo2:hover {
   width: 120px;
@@ -108,3 +127,17 @@
   text-decoration: none;
   color: white;
 }
+
+.sobremim{
+  margin-left:-2%;
+}
+
+
+
+/* menu responsivo (editar depois)
+
+@media screen and(max-width: 1020px){
+
+}
+
+*/
