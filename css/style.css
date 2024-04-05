@@ -14,7 +14,7 @@
 .linha{
     border: 0;
     height: 2px;
-    background:;
+    background:black;
     background-image: linear-gradient(to right, #7f4809, #dda15e, #7f4809);}
 
 .intro{
