@@ -32,6 +32,7 @@
     border: 0;
     height: 2px;
     margin: 0px;
+    padding: 0px;
     background:black;
     background-image: linear-gradient(to right, #7f4809, #dda15e, #7f4809);}
 
@@ -118,6 +119,7 @@
   margin-top: 5%;
   height: 250px;
   margin-right: 10%;
+  position: relative;
 }
 .curriculo2:hover {
   width: 120px;
@@ -130,6 +132,7 @@
 
 .sobremim{
   margin-left:-2%;
+  padding: 20px;
 }
 
 .texto{
@@ -145,6 +148,15 @@
     background-color: #dda15e;
     padding: 50px;
     border-radius: 25%;
+}
+
+.imagens{
+  width: 120px;
+  margin-right: 0px ;
+}
+
+.images{
+  position: relative;
 }
 
 
