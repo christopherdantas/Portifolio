@@ -3,10 +3,10 @@
 }
 .titulo{
     font-family: "Reem Kufi Fun", sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-style: normal;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     text-decoration: #000000;
 }
 
@@ -17,10 +17,6 @@
   text-align: center;
   font-size: 30px;
   text-decoration: #000000;
-}
-
-.main{
-    background-color: #fdfcdc;
 }
 
 .linha{
@@ -35,11 +31,10 @@
     font-family: "Reem Kufi Fun", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-left: 10%;
-    margin-top: -20%;
     font-size: 20px;
     color: #dda15e;
-    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
 }
 
 .nome{
@@ -110,12 +105,10 @@
 }
 
 .foto{
-  margin-left: 70%;
   border-radius: 30%;
-  margin-top: 10%;
   height: 250px;
-  margin-right: 10%;
-  position: relative;
+  margin-left: 70%;
+  margin-top: -30%;
 }
 
 .curriculo2 a{
@@ -135,7 +128,7 @@
     padding: 50px;
     width: 700px;
     height: 160px;
-    margin-left: 21%;
+    margin: auto;
 }
 
 .images{
@@ -146,16 +139,44 @@
   width: 400px;
   height: 250px;
   box-shadow: 10px 5px 5px gray ;
-  margin-left: 6px;
   border-radius: 10%;
   padding: 1px;
   background-color: black;
+  margin-left: 6px;
 }
+
 
 .creditos{
   font-family: "Reem Kufi Fun", sans-serif;
 }
 
+.projetos{
+
+  display: flex;
+
+  align-items: center;
+  
+  justify-content: center;
+
+}
+
+.conhecimentos{
+
+  display: flex;
+
+  align-items: center;
+  
+  justify-content: center;
+
+}
+
+.sobremim{
+  display: flex;
+
+  align-items: center;
+  
+  justify-content: center;
+}
 
 /* Media queries para ajustar o layout em diferentes tamanhos de tela */
 
@@ -171,6 +192,7 @@
 .intro{
   margin: auto;
   display: block;
+  margin-top: 600px;
 }
 
 .curriculo2{
