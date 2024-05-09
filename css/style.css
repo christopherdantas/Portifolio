@@ -27,6 +27,11 @@
     background:black;
     background-image: linear-gradient(to right, #7f4809, #dda15e, #7f4809);}
 
+.foto1{
+  border-radius: 10%;
+  margin-left: 38%;
+}
+
 .intro{
     font-family: "Reem Kufi Fun", sans-serif;
     font-weight: 500;
@@ -172,10 +177,9 @@
 
 .sobremim{
   display: flex;
-
   align-items: center;
-  
   justify-content: center;
+
 }
 
 /* Media queries para ajustar o layout em diferentes tamanhos de tela */
