@@ -29,6 +29,8 @@
 
 .foto1{
   border-radius: 10%;
+  box-shadow: 10px 5px 5px gray ;
+  position: relative;
   margin-left: 38%;
 }
 
